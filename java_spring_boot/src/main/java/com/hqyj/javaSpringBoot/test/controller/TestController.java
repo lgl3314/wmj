@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 @Controller
 @RequestMapping("/test")
 public class TestController {
-    //1、
+    //1
     @GetMapping("/testDesc")
     @ResponseBody
     public String testDesc(){
